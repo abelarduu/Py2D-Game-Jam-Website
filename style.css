@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: #1F2937;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.title {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0px 6px #395c98;
+  font-size: 3rem;
+  color: #7696de;
+}
+
+.logo > img {
+  margin: 30px;
+  filter: drop-shadow(0 0 1rem black);
+  height: 200px;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.5), rgba(0, 0, 0, 0.6)),
+              url('assets/code.png') center/cover;
+  font-size: 1.25rem;
+  height: 585px;
+}
+
+.banner-content {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+button {
+  margin: 30px;
+  border: 5px solid #afa16e;
+  border-image: linear-gradient(#e9c35b, #d38441) 10;
+  background-color: transparent;
+  letter-spacing: 5px;
+  padding: 15px 25px;
+  color: #FFD43B;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 35px 0;
+}
+
+.about-content > div {
+  display: block;
+  text-align: center;
+  width: 680px;
+}
+
+.about-content > div > p {
+  margin: 35px;
+  line-height: 30px;
+}
+
+#requirements-list {
+  margin: 30px 0;
+}
+
+.requirement-item {
+  background-color: #1F2937;
+  border-radius: 30px;
+  margin: 30px 10px;
+  padding: 15px 25px;
+}
+
+#transform-world {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(49, 168, 221, 0.3), rgba(0, 0, 0, 0.7)), url('assets/bg.png') top/cover fixed;
+  height: 500px;
+}
+
+#transform-world > div > p {
+  width: 600px; 
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#FFD43B, #d38441);
+  padding: 20px 0; 
+}
+
+footer > img {
+  margin: 10px;
+  height: 50px;
+}
